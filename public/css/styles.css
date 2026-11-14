@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Work Sans";
+}
+
+.text-center {
+    font-size: 1rem;
+}
+
+body {
+    background-color: #fffef4;
+}
+
+main {
+    min-height: calc(100vh - 200px);
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1.text-center, h2.text-center {
+    color: #386131;
+    font-family: "Expletus Sans";
+    font-size: clamp(1.2rem, 4vw, 2.3rem);
+    line-height: 1.1;
+}
+
+h1.text-center span, h2.text-center span {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+h3, h4,
+.card-title, .post-title {
+    font-family: "Expletus Sans";
+    font-weight: normal;
+    font-size: 24px;
+    color: #386131;
+}
+
+h3.text-center, h4.text-center {
+    font-family: "Expletus Sans";
+    font-weight: normal;
+    font-size: 24px;
+    color: #386131;
+}
+
+.footer-heading {
+    font-family: "Expletus Sans";
+    font-size: 24px;
+    color: #386131;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.logo-footer {
+    height: 5rem;
+}
+
+.navbar {
+    background-color: #F4F1DE;
+}
+
+.navbar .nav-link {
+    color: #24272B;
+}
+
+.navbar .nav-link.active {
+    color: #386131;
+    font-weight: 700;
+}
+
+.btn-primary {
+    border-radius: 24px;
+    background-color: #386131;
+    color: #F4F1DE;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45753b;
+    color: #F4F1DE;
+}
+
+.btn-secondary {
+    background-color: #24272B;
+    color: #f8f9fa;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 24px;
+}
+
+.btn-secondary:hover {
+    background-color: #43464d;
+    color: #ffffff;
+}
+
+.btn-danger {
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 24px;
+}
+
+.btn-danger:hover {
+    background-color: #e45563;
+    color: #fff;
+}
+
+.button-form {
+    background-color: #386131;
+    color: #F4F1DE;
+    border: none;
+    width: 100%;
+}
+
+.button-form:hover {
+    background-color: #45753b;
+    color: #F4F1DE;
+    border: none;
+}
+
+.form-check-input:checked {
+    transition: 200ms;
+    background-color: #386131;
+    border-color: #386131;
+    box-shadow:  0 4px 2px rgba(196, 214, 193, 0.8);
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 4px 2px rgba(196, 214, 193, 0.8);
+    border-color: #b7c1b5;
+}
+
+.card {
+    flex: 1 1 22rem;
+    max-width: 22rem;
+    background-color: #F4F1DE;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card .card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 4px 2px rgba(196, 214, 193, 0.8);
+    border-color: #b7c1b5;
+}
+
+.form-select:focus {
+    box-shadow: 0 0 4px 2px rgba(196, 214, 193, 0.8);
+    border-color: #b7c1b5;
+}
+
+.card-detalle {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #F4F1DE;
+}
+
+.bg-footer {
+    background-color: #F4F1DE;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.fullwidth-carousel {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+}
+
+.fullwidth-carousel .carousel-item img.img-fluid {
+    height: clamp(250px, 60vh, 400px);
+}
+
+.fullwidth-carousel img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.sustainable-content {
+    background-color: #eae6cc;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sustainable-content .col-md-7 {
+    position: relative;
+    min-height: 280px;
+}
+
+.sustainable-content img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.sustainable-content ul li {
+    color: #386131;
+}
+
+.bi {
+    color: #386131;
+}
+
+.detalle-acciones {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.detalle-acciones {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.detalle-acciones .detalle-botones {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+}
+
+.detalle-acciones .btn {
+    white-space: nowrap;
+    width: 100%;
+}
+
+.nombre-producto {
+    background-color: transparent;
+    color: #386131;
+}
+
+.titulo-mochilas, .titulo-posts {
+    position: relative;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.titulo-mochilas h2, .titulo-posts h2 {
+    margin: 0;
+}
+
+.titulo-mochilas .btn, .titulo-posts .btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.tag-chip {
+    background-color: #bbd6b6;
+    color: #386131;
+    font-family: "Expletus Sans";
+    font-size: 0.8rem;
+}
+
+@media (min-width: 1200px) {
+    .contenedor1 {
+        max-width: 1000px;
+    }
+    .product-detail-card {
+    max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .detalle-acciones .detalle-botones {
+        flex-direction: row;
+        align-items: center;
+    }
+    .detalle-acciones .btn {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .product-detail-card {
+        flex-direction: row;
+        max-width: 95%;
+    }
+
+    .product-detail-left,
+    .product-detail-card-body {
+        flex: 1;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .titulo-mochilas, .titulo-posts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .titulo-mochilas .btn, .titulo-posts .btn {
+        position: static;
+        transform: none;
+    }
+
+    .detalle-botones-mochilas {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    body > main > div.container.rounded.text-center > div {
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    section.sustainable-content .col-6.col-md-5.p-5 {
+        width: 100%;
+        padding: 1.5rem;
+    }
+    
+    .d-flex.flex-wrap.justify-content-center.justify-content-md-end.gap-2 > .btn {
+        width: 100%;
+    }
+}
